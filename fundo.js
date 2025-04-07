@@ -12,3 +12,4 @@ document.body.style.backgroundImage = `url('${imagens[0]}')`;
 setInterval(fundo, 50000);
 
 
+
