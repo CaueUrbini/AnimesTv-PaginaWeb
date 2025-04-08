@@ -16,3 +16,10 @@ $(document).ready(function(){
         }
     });
 });
+ //* Function do cadastro 
+$(document).ready(function(){ 
+    $(".register").click(function(){
+        window.open("cadastro.html","Registre-se","width=400px,height=500px");
+        
+    })
+})
