@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Site</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Start Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src = "login.js" type="text/javascript"></script>
+    <!--Ending Scripts-->
+    <main class="container">
+      <form>
+        <h1>Animes Tv</h1>
+        <div class="input-box">
+          <input placeholder="Usuário" type="text" />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input placeholder="Senha" type="password" />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="remember-forgot">
+          <label>
+            <input type="checkbox" />
+            Lembrar minha senha
+          </label>
+          <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+        </div>
+
+        <button type="submit" class="login">Entrar</button>
+
+        <div class="register">
+          <p>Não é cadastrado?<a href="#"> Cadastrar-se</a></p>
+        </div>
+      </form>
+      <span style="display: none;"></span>
+    </main>
+  </body>
+</html>
