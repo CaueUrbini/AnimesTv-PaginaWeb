@@ -1,11 +1,11 @@
 $(document).ready(function() {
-    // Variáveis globais
+    
     const $form = $('#form-cadastro');
     const $btnProximo = $('#btn-proximo');
     const $btnText = $('.btn-text');
     const $btnLoading = $('.btn-loading');
     
-    // Validação em tempo real
+    
     $('#email').on('input', function() {
         validateEmail();
         toggleSubmitButton();
@@ -16,21 +16,19 @@ $(document).ready(function() {
         toggleSubmitButton();
     });
     
-    // Submit do formulário
     $form.on('submit', function(e) {
         e.preventDefault();
         
         if (validateForm()) {
             showLoading();
             
-            // Simulação de AJAX (substitua pela sua requisição real)
+            
             setTimeout(function() {
-                window.location.href = 'cadastro-passo2.html';
+                window.location.href = '../login/login.html';
             }, 1500);
         }
     });
     
-    // Funções de validação
     function validateEmail() {
         const email = $('#email').val();
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
