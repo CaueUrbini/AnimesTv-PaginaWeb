@@ -64,14 +64,10 @@ body::before {
         rgba(255, 45, 117, 0.1),
         transparent, transparent, transparent
     );
-    animation: shine 3s infinite;
-    z-index: 0;
+    
 }
 
-@keyframes shine {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+
 
 .Altere-senha h1 {
     color: var(--primary);
@@ -161,13 +157,4 @@ input[type="text"]::placeholder {
 
 #enviar:hover::before {
     left: 100%;
-}
-
-/* Efeitos de partículas */
-.particle {
-    position: absolute;
-    background: var(--primary);
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 0;
 }
