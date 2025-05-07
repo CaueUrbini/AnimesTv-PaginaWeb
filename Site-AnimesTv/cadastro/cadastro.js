@@ -35,7 +35,7 @@ $(document).ready(function() {
         const isValid = regex.test(email);
         
         if (!isValid && email.length > 0) {
-            $('#email-error').text('E-mail inválido! Ex: naruto@konoha.com').show();
+            $('#email-error').text('E-mail inválido! Ex: Caue@gmail.com').show();
             return false;
         } else {
             $('#email-error').hide();
