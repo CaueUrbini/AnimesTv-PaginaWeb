@@ -12,3 +12,4 @@
 - A interface é **totalmente responsiva** para smartphones e foi construída com **HTML**, **CSS** e **JavaScript**.
 
 🔗 [Acesse a aplicação aqui](https://animes-tv-pagina-web.vercel.app/)
+![image](https://github.com/user-attachments/assets/a1368d2f-894a-4540-8320-3c5864693b3d)
