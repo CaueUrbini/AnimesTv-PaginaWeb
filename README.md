@@ -1,11 +1,14 @@
-# AnimesTv-PaginaWeb
-<br>
-##Explicação <br>
--Estou me aprimorando em HTML, Css e Js. <br>
--Esse é um dos projetos que estou fazendo e irei atualizando com o tempo. <br>
-<br>
-##Descrição sobre essa pagina web <br>
--Página web focada no sistema de login de usuários.<br>
--Desenvolvi essa aplicação com o objetivo de adquirir mais experiência prática, prestando atenção aos detalhes da experiência do usuário, como animações que tornam a navegação mais intuitiva e agradável. <br>
--A interface é totalmente responsiva para smartphones e foi construída com HTML, CSS e JavaScript.<br>
-     https://animes-tv-pagina-web.vercel.app/
+# 📺 AnimesTv - Página Web
+
+## ✨ Explicação
+
+- Estou me aprimorando em **HTML**, **CSS** e **JavaScript**.
+- Esse é um dos projetos que estou desenvolvendo e irei atualizando com o tempo.
+
+## 📄 Descrição do Projeto
+
+- Página web focada em **sistema de login de usuários**.
+- Desenvolvi essa aplicação com o objetivo de adquirir mais experiência prática, prestando atenção aos detalhes da **experiência do usuário**, como **animações** que tornam a navegação mais intuitiva e agradável.
+- A interface é **totalmente responsiva** para smartphones e foi construída com **HTML**, **CSS** e **JavaScript**.
+
+🔗 [Acesse a aplicação aqui](https://animes-tv-pagina-web.vercel.app/)
