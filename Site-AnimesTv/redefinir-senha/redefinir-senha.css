@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('https://i.imgur.com/JMdxQfT.jpg') no-repeat center center fixed;
+    background-color: black;
     background-size: cover;
     font-family: 'Oxanium', cursive;
     position: relative;
